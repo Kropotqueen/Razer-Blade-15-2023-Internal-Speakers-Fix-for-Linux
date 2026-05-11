@@ -3,7 +3,7 @@
 CARD_ID=$(grep -l "sofhdadsp" /sys/class/sound/card*/id | sed 's/[^0-9]//g')
 
 if [ -z "$CARD_ID" ]; then
-    echo "Carte interne introuvable, arrêt du script."
+    echo "Internal card not found, stopping script."
     exit 1
 fi
 
@@ -2010,4 +2010,4 @@ hda-verb $DEVICE 0x20 0x400 0x0
 hda-verb $DEVICE 0x20 0x500 0x23
 hda-verb $DEVICE 0x20 0x400 0xdd00
 
-echo "Son activé sur $DEVICE (Carte n°$CARD_ID)"
+echo "Audio enabled on $DEVICE (Carte n°$CARD_ID)"
