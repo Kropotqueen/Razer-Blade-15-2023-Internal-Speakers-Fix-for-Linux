@@ -1,14 +1,6 @@
 # Razer-Blade-15-2023-Internal-Speakers-Fix-for-Linux
 This script fixes the "silent internal speakers" issue on Razer Blade 15 (2023) models (and similar) running Linux.
 
-This is a great idea. Many Razer users struggle with this exact issue for months. Here is a clean, professional, and easy-to-follow `README.md` in English for your GitHub repository.
-
----
-
-# Razer Blade 15 (2023) Internal Speakers Fix for Linux
-
-This script fixes the "silent internal speakers" issue on Razer Blade 15 (2023) models (and similar) running Linux.
-
 ### The Problem
 
 On many recent Razer laptops, the internal audio amplifier is not properly initialized by the Linux kernel. Even if the sound card is detected, no sound comes out of the speakers because the hardware is "asleep."
