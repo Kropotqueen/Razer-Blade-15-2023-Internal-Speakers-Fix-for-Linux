@@ -11,7 +11,7 @@ This script uses `hda-verb` to send direct commands to the audio codec to wake u
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
 
 You need the `alsa-tools` package to use the `hda-verb` command.
 
