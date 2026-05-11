@@ -2010,4 +2010,4 @@ hda-verb $DEVICE 0x20 0x400 0x0
 hda-verb $DEVICE 0x20 0x500 0x23
 hda-verb $DEVICE 0x20 0x400 0xdd00
 
-echo "Audio enabled on $DEVICE (Carte n°$CARD_ID)"
+echo "Audio enabled on $DEVICE (Card #$CARD_ID)"
